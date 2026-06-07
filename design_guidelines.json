@@ -1,0 +1,160 @@
+{
+  "project_info": {
+    "name": "Narmada Restaurant Bannerghatta",
+    "domain": "Restaurant / Food / Hospitality",
+    "theme": "LIGHT",
+    "archetype": "1 (Organic & Earthy)"
+  },
+  "design_system": {
+    "colors": {
+      "primary": {
+        "DEFAULT": "#C2410C",
+        "hover": "#9A3412",
+        "description": "Rich Terracotta for CTAs, reflecting the warmth of Indian spices."
+      },
+      "background": {
+        "DEFAULT": "#FAFAF9",
+        "secondary": "#F5F5F4",
+        "dark": "#1C1917",
+        "description": "Warm off-white (stone-50) base to give an earthy, natural feel."
+      },
+      "text": {
+        "primary": "#1C1917",
+        "secondary": "#57534E",
+        "accent": "#9A3412",
+        "inverse": "#FAFAF9"
+      },
+      "border": {
+        "DEFAULT": "#E7E5E4"
+      }
+    },
+    "typography": {
+      "heading_font": "Cormorant Garamond",
+      "body_font": "Manrope",
+      "scale": {
+        "h1": "text-5xl sm:text-6xl tracking-tight leading-none",
+        "h2": "text-3xl sm:text-4xl tracking-tight leading-tight",
+        "h3": "text-2xl sm:text-3xl tracking-tight",
+        "h4": "text-xl sm:text-2xl",
+        "body": "text-base leading-relaxed",
+        "small": "text-sm uppercase tracking-[0.2em]"
+      },
+      "rules": [
+        "Never use Inter or default generic fonts for headings.",
+        "Headings use tight letter spacing.",
+        "Labels and small functional text should be uppercase and widely tracked."
+      ]
+    },
+    "spacing_and_layout": {
+      "container_padding": "px-6 md:px-12 lg:px-24",
+      "section_spacing": "py-20 md:py-32",
+      "grid_patterns": {
+        "bento_marketing": "grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8 to gap-12",
+        "menu_grid": "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      },
+      "border_radius": "rounded-xl",
+      "general_rules": [
+        "Use generous padding around text blocks.",
+        "Mobile-first responsive design, ensure readable sizes at 375px.",
+        "Images on mobile should not exceed max-h-[80vh]."
+      ]
+    },
+    "surface_styles": {
+      "glassmorphism": "bg-white/70 backdrop-blur-xl border border-white/40 shadow-sm",
+      "solid_card": "bg-stone-50 border border-stone-200 shadow-sm hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+    },
+    "interactions": {
+      "hover": "All interactive elements must have clear hover states with contrast change.",
+      "focus": "High contrast ring for focus states.",
+      "transitions": "transition-all duration-300 ease-in-out"
+    }
+  },
+  "components": {
+    "header": {
+      "style": "Glassmorphism header fixed at the top (z-50).",
+      "content": "Logo, Links (About, Menu, Gallery, Contact), 'Call Now' CTA."
+    },
+    "hero": {
+      "style": "Full viewport height relative container with background image and black/40 overlay.",
+      "content": {
+        "badge": "4.4★ on Google (945+ Reviews) styled as a glass pill.",
+        "heading": "Late-Night Andhra Comfort on Bannerghatta Rd",
+        "subheading": "Open daily 11 AM - 2 AM. Specializing in authentic Andhra meals and our famous Narmada Special Chicken Biryani.",
+        "ctas": ["Order/Takeaway", "View Menu", "Get Directions"]
+      }
+    },
+    "about": {
+      "style": "Side-by-side layout (image and text) with asymmetric overlap.",
+      "content": "Story of Narmada, emphasizing family dining and late-night availability."
+    },
+    "menu_services": {
+      "style": "Cardless or flat solid cards with subtle 1px border. Use list layout for menu items.",
+      "content": "Highlight items: 'Narmada Special Chicken Biryani', 'Andhra Meals'. Include pricing (₹200-400)."
+    },
+    "gallery": {
+      "style": "Bento Grid (Mode A: The Tetris Grid) for visual tension.",
+      "content": "Mix of food photography and warm interior shots."
+    },
+    "testimonials": {
+      "style": "Marquee strategy - Option A (The Editorial Ribbon) with slow scroll.",
+      "content": "Customer reviews mentioning late-night food and Biryani."
+    },
+    "contact": {
+      "style": "Two-column bento box. Darker background for contrast.",
+      "content": "Phone (+91 97430 00923) with tel: link. Address, Open Hours, Google Maps embed."
+    },
+    "footer": {
+      "style": "Dark background (Stone-900) with Light text. Massive spacing.",
+      "content": "Quick links, social icons, brand sign-off."
+    }
+  },
+  "media": {
+    "icons": {
+      "library": "lucide-react",
+      "usage": "Use consistently for CTAs, contact info, and rating badge."
+    },
+    "images": [
+      {
+        "category": "Hero / Primary Biryani",
+        "url": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaSUyMGluZGlhbiUyMGZvb2R8ZW58MHx8fHwxNzgwODE3Nzk1fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Delicious Chicken Biryani"
+      },
+      {
+        "category": "Menu / Biryani Close-up",
+        "url": "https://images.pexels.com/photos/23830980/pexels-photo-23830980.jpeg",
+        "alt": "Chicken Biryani garnished with mint"
+      },
+      {
+        "category": "About / Andhra Thali",
+        "url": "https://images.unsplash.com/photo-1542367592-8849eb950fd8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwyfHx0cmFkaXRpb25hbCUyMGluZGlhbiUyMG1lYWxzJTIwdGhhbGl8ZW58MHx8fHwxNzgwODE3Nzk1fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Traditional Indian Thali Meals"
+      },
+      {
+        "category": "Gallery / Thali Top View",
+        "url": "https://images.pexels.com/photos/8148149/pexels-photo-8148149.jpeg",
+        "alt": "Delicious Indian thali"
+      },
+      {
+        "category": "Gallery / Restaurant Interior",
+        "url": "https://images.pexels.com/photos/10148453/pexels-photo-10148453.jpeg",
+        "alt": "Warm and inviting restaurant setting"
+      },
+      {
+        "category": "Contact / Interior Detail",
+        "url": "https://images.pexels.com/photos/10810574/pexels-photo-10810574.jpeg",
+        "alt": "Cozy restaurant interior"
+      }
+    ]
+  },
+  "testing": {
+    "attributes": "All interactive and key informational elements MUST include a `data-testid` attribute."
+  },
+  "instructions_to_main_agent": [
+    "Strictly follow the defined typography (Cormorant Garamond + Manrope) and colors.",
+    "Implement the bento grid for the gallery.",
+    "Ensure the hero image has a sufficient overlay (black/40) so the text is fully legible.",
+    "Use purely semantic HTML + Tailwind CSS for marketing layouts; customize Shadcn UI only if complex interactives are needed.",
+    "All interactive elements (links, buttons, inputs) must have a `data-testid` attribute.",
+    "The header must use the glassmorphism surface style."
+  ]
+}
